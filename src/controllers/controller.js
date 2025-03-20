@@ -4,7 +4,7 @@ const { StatusCodes } = require('http-status-codes');
 const getSHA256 = async (req, res) => {
   const payload = req.body;
   console.log('pay:', payload);
-  const secretKey = "T3mpP@ssWord";
+  const secretKey = "J@de230705!@#$%";
 
   const filteredEntries = Object.entries(payload).filter(([key, value]) => {
     return value !== null && value !== undefined && value !== '';
